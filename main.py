@@ -82,10 +82,4 @@ if not team2_t_with_rifles_or_smgs.empty:
 else:
     print("No data to process for Team2 on T side with at least 2 rifles or SMGs in BombsiteB.")
 
-print(pgs.df.head())
-print(len(pgs.df))
-
-print(team2_t_in_boundary.head())
-print(len(team2_t_in_boundary))
-
 pgs.generate_heatmap('BombsiteB')
