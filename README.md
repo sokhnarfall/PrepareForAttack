@@ -3,6 +3,8 @@ The CounterStrike coaching staff has requested we get as much insight as possibl
 
 # Output
 [Click here to view the output of this code](https://docs.google.com/document/d/15f7w2Pmxhxv6r1r70ZA09LzP9v7w18PZt18cW-m9eUk/edit#heading=h.5ellydiuruqq "Output")
+NOTE:
+The `game_state_frame_data.pickle` file was too large to be included in this repo. However, be sure to include it in your local repository when running this code.
 
 # SolutionForStakeholders
 Here's a potential solution for stakeholders who want to get relevant and useful information out of this code without actually having to run it themselves.
