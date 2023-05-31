@@ -1,5 +1,5 @@
 import pandas as pd
-from matplotlib import pyplot as plt
+from matplotlib import pyplot as plt            
 import seaborn as sns
 from shapely.geometry import Point, Polygon
 from scipy.interpolate import griddata
@@ -18,10 +18,8 @@ class ProcessGameState:
 
     def extract_weapon_classes(self):
         weapon_classes = []
-        # 
         for index, row in self.df.iterrows():
             inventory = row['inventory']
-            print(inventory)
             # if inventory is not empty and key 'weapon_class' exists, store this key's value in a 
             # list and return the list once iteration is complete
             if inventory is not None:
